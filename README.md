@@ -6,7 +6,7 @@ Spartan6 TQ144 video interface board.<p>
 
 - Xilinx XC6S-TQ144 FPGA
 - FTDI FT2232 USB to JTAG/UART interface
-  no PROM
+  - no PROM
 - Power input : USB 5V or DC jack 12V input
 - Dual CON80 intetface
   DVP image sensor input
