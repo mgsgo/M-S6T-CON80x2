@@ -1,14 +1,14 @@
-# M-S6T-CON80x2
+## M-S6T-CON80x2
 
-Power of low cost FPGA.<p>
+# Power of low cost FPGA.
 
 Spartan6 TQ144 video interface board.<p>
 
--Xilinx XC6S-TQ144 FPGA<br>
--FTDI FT2232 USB to JTAG/UART interface
+- Xilinx XC6S-TQ144 FPGA
+- FTDI FT2232 USB to JTAG/UART interface
   no PROM
--Power input : USB 5V or DC jack 12V input
--Dual CON80 intetface
+- Power input : USB 5V or DC jack 12V input
+- Dual CON80 intetface
   DVP image sensor input
     MT9V034, MT9M031, AR0330CS, MT9M001, OV2640
   MIPI image sensor input
@@ -36,4 +36,4 @@ pin map
 15
 17
 19
-20q
+20
