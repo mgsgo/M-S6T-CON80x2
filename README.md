@@ -26,11 +26,11 @@ Spartan6 TQ144 video interface board.<p>
     - CYUSB3014
     -FT602Q
 - Pin map
-  - 1
-  - 3
+  - 1 | GND |2 | GND |
+  - 3 |
   - 5
   - 7
-  -  9
+  - 9
   - 11
   - 13
   - 15
