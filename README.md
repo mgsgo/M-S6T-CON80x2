@@ -2,29 +2,32 @@
 
 # Power of low cost FPGA.
 
-Spartan6 TQ144 video interface board.<p>
-
-- Xilinx XC6S-TQ144 FPGA
+Spartan6 video interface board.
+<p>
+- Xilinx XC6S-TQ144/FTG256/FGG484 FPGA
+  - BANK1/BANK3 ISERDES only
 - FTDI FT2232 USB to JTAG/UART interface
   - no PROM
-- Power input : USB 5V or DC jack 12V input
+- Power input : USB 5V or 12V DC jack input
 - Dual CON80 intetface
-  - DVP image sensor input
+  - DVP(Parallel video) image sensor input
     - MT9V034, MT9M031, AR0330CS, MT9M001, OV2640
-  - MIPI image sensor input
-    - IMX219, OV5640, AR0330CM
   - HiSPI image sensor input
     - AR0330CM
+  - MIPI image sensor input
+    - IMX219, OV5640, AR0330CM
   - LVDS image sensor input
     - Onsemi PYHTON
-  - OpenLDI(CAMLINK) interface
+  - OpenLDI(CAMLINK, 7:1 SERDES) interface
     - 1,2,3 tap base
     - 4,6,8,10 tap medium, full
   - TMDS(DVI, HDMI) interface
     - 1080p 60Hz
   - USB3.0 interface
     - CYUSB3014
-    -FT602Q
+    - FT602Q
+  - SERDES interface
+    - TI FPD LINK3
 - Pin map
   | #| DVP    | #| DVP    | | #| LVDS   | #| LVDS   |
   |--|--------|--|--------|-|--|--------|--|--------|
@@ -44,11 +47,11 @@ Spartan6 TQ144 video interface board.<p>
   |27| A-D6   |28| B-D6   | |27| A-D3N  |28| B-D3N  | 
   |29| A-D7   |30| B-D7   | |29| A-D3P  |30| B-D3P  | 
   |31| GND    |32| GND    | |31| GND    |32| GND    | 
-  |33| A-HSYNC|34| B-HSYNC| |33| A-PWDN |34| B-PWDN | 
-  |35| A-VSYNC|36| B-VSYNC| |35| A-IO   |36| B-IO   | 
+  |33| A-HSYNC|34| B-HSYNC| |33| A-PWDNN|34| B-PWDNN| 
+  |35| A-VSYNC|36| B-VSYNC| |35| A-IOP  |36| B-IOP  | 
   |37| GND    |38| GND    | |37| GND    |38| GND    | 
-  |39| A-SCL  |40| B-SCL  | |39| A-SCL  |40| B-SCL  | 
-  |41| A-SDA  |42| B-SDA  | |41| A-SDA  |42| B-SDA  | 
+  |39| A-SCL  |40| B-SCL  | |39| A-SCLN |40| B-SCLN | 
+  |41| A-SDA  |42| B-SDA  | |41| A-SDAP |42| B-SDAP | 
   |43| `3V3`  |44| `3V3`  | |43| `3V3`  |44| `3V3`  | 
   |45| A-MCLK |46| B-MCLK | |45| A-MCLK |46| B-MCLK | 
   |47| GND    |48| GND    | |47| GND    |48| GND    | 
