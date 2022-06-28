@@ -38,7 +38,7 @@ Spartan6 video interface board.<p>
   |09| A-D2   |10| B-D2   | |09| A-D1N  |10| B-D1N  | |09| DQ2    |10| DQ18   | 
   |11| A-D3   |12| B-D3   | |11| A-D1P  |12| B-D1P  | |11| DQ3    |12| DQ19   | 
   |13| GND    |14| GND    | |13| GND    |14| GND    | |13| GND    |14| GND    | 
-  |15| A-RSTN |16| B-RSTN | |15| A-CKN  |16| B-CKN  | |15| RSTN   |16| CTLn   | 
+  |15| A-RSTN |16| B-RSTN | |15| A-CKN  |16| B-CKN  | |15| GPIO45 |16| CTLn   | 
   |17| A-PCLK |18| B-PCLK | |17| A-CKP  |18| B-CKP  | |17| PCLK   |18| CTLn   | 
   |19| GND    |20| GND    | |19| GND    |20| GND    | |19| GND    |20| GND    | 
   |21| A-D4   |22| B-D4   | |21| A-D2N  |22| B-D2N  | |21| DQ4    |22| DQ20   | 
@@ -47,7 +47,7 @@ Spartan6 video interface board.<p>
   |27| A-D6   |28| B-D6   | |27| A-D3N  |28| B-D3N  | |27| DQ6    |28| DQ22   | 
   |29| A-D7   |30| B-D7   | |29| A-D3P  |30| B-D3P  | |29| DQ7    |30| DQ23   | 
   |31| GND    |32| GND    | |31| GND    |32| GND    | |31| GND    |32| GND    | 
-  |33| A-HSYNC|34| B-HSYNC| |33| A-PWDNN|34| B-PWDNN| |33| HSYNC  |34| CTLn   | 
+  |33| A-HVAL |34| B-HVAL | |33| A-PWDNN|34| B-PWDNN| |33| HVAL   |34| CTLn   | 
   |35| A-VSYNC|36| B-VSYNC| |35| A-IOP  |36| B-IOP  | |35| VSYNC  |36| CTLn   | 
   |37| GND    |38| GND    | |37| GND    |38| GND    | |37| GND    |38| GND    | 
   |39| A-SCL  |40| B-SCL  | |39| A-SCLN |40| B-SCLN | |39| I2C_SCL|40| CTLn   | 
