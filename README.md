@@ -9,7 +9,8 @@ Spartan6 video interface board.<p>
 - FTDI FT2232 USB to JTAG/UART interface
   - no PROM
 - Power input : USB 5V or 12V DC jack input
-- Dual CON80 intetface
+- CON80x2 ports
+- CON80 intetface
   - DVP(Parallel video) image sensor input
     - MT9V034, MT9M031, AR0330CS, MT9M001, OV2640, OV5640
   - HiSPI image sensor input
@@ -28,8 +29,8 @@ Spartan6 video interface board.<p>
     - FTDI FT602Q
   - SERDES interface
     - TI FPD LINK3
-- Pin map
-  | #| DVP    | #| DVP    | | #| LVDS   | #| LVDS   | | #| FX3    | #| FX3    |
+- CON80 pin map
+  | #| DVP    | #| DVP    |``| #| LVDS   | #| LVDS   |``| #| FX3    | #| FX3    |
   |--| :----: |--| :----: |-|--| :----: |--| :----: |-|--| :----: |--| :----: |
   |01| GND    |02| GND    | |01| GND    |02| GND    | |01| GND    |02| GND    |
   |03| A-D0   |04| B-D0   | |03| A-D0N  |04| B-D0N  | |03| DQ0    |04| DQ16   | 
