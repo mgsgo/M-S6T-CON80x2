@@ -26,31 +26,32 @@ Spartan6 TQ144 video interface board.<p>
     - CYUSB3014
     -FT602Q
 - Pin map
-  |01| GND |02| GND |
-  |--|-----|--|-----|
-  |03| A-D0|04| D1-0|
-  |05| A-D1|06| D1-1|
-  |07| GND |08| GND |
-  |09| A-D2|10| D1-2|
-  |11| A-D3|12| D1-3|
-  |13| GND |14| GND |
-  |15| A-RSTN|16| RSTN|
-  |17| A-PCLK|18| PCLK|
-  |19| GND |20| GND |
-  |21| A-D4|22| D1-4|
-  |23| A-D5|24| D1-5|
-  |25| GND |26| GND |
-  |27| A-D6|28| D1-6|
-  |29| A-D7|30| D-17|
-  |31| GND |32| GND |
-  |33| A-HSYNC|34|HSYNC|
-  |35| A-VSYNC|36|VSYNC|
-  |37| GND |38| GND |
-  |39| A-SCL
-  |41| A-SDA
-  |43| 3V3
-  |45| MCLK/VCCIO
-  |47| GND
+  | #| DVP    | #| DVP    | |
+  |--|--------|--|--------|-|
+  |01| GND    |02| GND    | |
+  |03| A-D0   |04| B-D0   |
+  |05| A-D1   |06| B-D1   |
+  |07| GND    |08| GND    |
+  |09| A-D2   |10| B-D2   |
+  |11| A-D3   |12| B-D3   |
+  |13| GND    |14| GND    |
+  |15| A-RSTN |16| B-RSTN |
+  |17| A-PCLK |18| B-PCLK |
+  |19| GND    |20| GND    |
+  |21| A-D4   |22| B-D4   |
+  |23| A-D5   |24| B-D5   |
+  |25| GND    |26| GND    |
+  |27| A-D6   |28| B-D6   |
+  |29| A-D7   |30| B-D7   |
+  |31| GND    |32| GND    |
+  |33| A-HSYNC|34| B-HSYNC|
+  |35| A-VSYNC|36| B-VSYNC|
+  |37| GND    |38| GND    |
+  |39| A-SCL  |40| B-SCL  |
+  |41| A-SDA  |42| B-SDA  |
+  |43| 3V3    |44| 3V3    |
+  |45| A-MCLK |46| B-MCLK |
+  |47| GND |48| GND |
   |49| C-D0
   |51| C-D1
   |53| GND
