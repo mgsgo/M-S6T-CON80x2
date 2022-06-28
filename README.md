@@ -24,8 +24,8 @@ Spartan6 video interface board.<p>
   - TMDS(DVI, HDMI) interface
     - 1080p 60Hz
   - USB3.0 interface
-    - CYUSB3014
-    - FT602Q
+    - Cypress FX3 CYUSB3014
+    - FTDI FT602Q
   - SERDES interface
     - TI FPD LINK3
 - Pin map
