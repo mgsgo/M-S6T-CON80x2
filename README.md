@@ -26,7 +26,7 @@ Spartan6 TQ144 video interface board.<p>
     - CYUSB3014
     -FT602Q
 - Pin map
-  | #| DVP    | #| DVP    | | DIFF      | DIFF      |
+  | #| DVP    | #| DVP    | | LVDS      | LVDS      |
   |--|--------|--|--------|-|-----------|-----------|
   |01| GND    |02| GND    | |01| GND    |02| GND    |
   |03| A-D0   |04| B-D0   | |03| A-D0N  |04| B-D0N  | 
@@ -64,7 +64,7 @@ Spartan6 TQ144 video interface board.<p>
   |67| C-D4   |68| D-D4   | |67| C-D2N  |68| D-D2N  | 
   |69| C-D5   |70| D-D5   | |69| C-D2P  |70| D-D2P  | 
   |71| GND    |72| GND    | |71| GND    |72| GND    | 
-  |73| C-D6   |74| D-D6   | |73| C-D2N  |74| D-D3N  | 
-  |75| C-D7   |76| D-D7   | |75| C-D2P  |76| D-D3P  | 
+  |73| C-D6   |74| D-D6   | |73| C-D3N  |74| D-D3N  | 
+  |75| C-D7   |76| D-D7   | |75| C-D3P  |76| D-D3P  | 
   |77| GND    |78| GND    | |77| GND    |78| GND    | 
   |79| `12V`  |80| `5V`   | |79| `12V`  |80| `5V`   | 
