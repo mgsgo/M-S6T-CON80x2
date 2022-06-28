@@ -28,7 +28,7 @@ Spartan6 TQ144 video interface board.<p>
 - Pin map
   |01| GND |02| GND |
   |--|-----|--|-----|
-  |03| 
+  |03|D0-0|04|D1-0|
   |05|
   |07|
   |09|
