@@ -30,7 +30,7 @@ Spartan6 video interface board.<p>
   - SERDES interface
     - TI FPD LINK3
 - CON80 pin map
-  | #| DVP    | #| DVP    |``| #| LVDS   | #| LVDS   |``| #| FX3    | #| FX3    |
+  | #| DVP    | #| DVP    |` `| #| LVDS   | #| LVDS   |` `| #| FX3    | #| FX3    |
   |--| :----: |--| :----: |-|--| :----: |--| :----: |-|--| :----: |--| :----: |
   |01| GND    |02| GND    | |01| GND    |02| GND    | |01| GND    |02| GND    |
   |03| A-D0   |04| B-D0   | |03| A-D0N  |04| B-D0N  | |03| DQ0    |04| DQ16   | 
