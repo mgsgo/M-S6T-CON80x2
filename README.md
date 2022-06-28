@@ -2,8 +2,8 @@
 
 # Power of low cost FPGA.
 
-Spartan6 video interface board.
-<p>
+Spartan6 video interface board.<p>
+
 - Xilinx XC6S-TQ144/FTG256/FGG484 FPGA
   - BANK1/BANK3 ISERDES only
 - FTDI FT2232 USB to JTAG/UART interface
