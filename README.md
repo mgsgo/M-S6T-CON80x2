@@ -49,22 +49,22 @@ Spartan6 TQ144 video interface board.<p>
   |37| GND    |38| GND    |
   |39| A-SCL  |40| B-SCL  |
   |41| A-SDA  |42| B-SDA  |
-  |43| 3V3    |44| 3V3    |
+  |43| '3V3'  |44| '3V3'  |
   |45| A-MCLK |46| B-MCLK |
-  |47| GND |48| GND |
-  |49| C-D0
-  |51| C-D1
-  |53| GND
-  |55| C-D2
-  |57| C-D3
-  |59| GND
-  |61| C-RSTN
-  |63| C-PCLK
-  |65| GND
-  |67| C-D4
-  |69| C-D5
-  |71| GND
-  |73| C-D6
-  |75| C-D7
-  |77| GND
-  |79| 12V
+  |47| GND    |48| GND    |
+  |49| C-D0   |50| D-D0   |
+  |51| C-D1   |52| D-D1   |
+  |53| GND    |54| GND    |
+  |55| C-D2   |56| D-D2   |
+  |57| C-D3   |58| D-D3   |
+  |59| GND    |60| GND    |
+  |61| C-RSTN |62| D-RSTN |
+  |63| C-PCLK |64| D-PCLK |
+  |65| GND    |66| GND    |
+  |67| C-D4   |68| D-D4   |
+  |69| C-D5   |70| D-D5   |
+  |71| GND    |72| GND    |
+  |73| C-D6   |74| D-D6   |
+  |75| C-D7   |76| D-D7   |
+  |77| GND    |78| GND    |
+  |79| '12V'  |80| '5V'   |
