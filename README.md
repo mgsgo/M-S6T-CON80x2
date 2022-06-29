@@ -20,15 +20,18 @@ Spartan6 video interface board.<p>
   - LVDS image sensor input
     - Onsemi PYHTON
   - OpenLDI(CAMLINK, 7:1 SERDES) interface
-    - 1,2,3 tap base
-    - 4,6,8,10 tap medium, full
+    - 1port MDR26 1,2,3 tap base
+    - 2port MDR26 4,6,8,10 tap medium, full
   - TMDS(DVI, HDMI) interface
     - 1080p 60Hz
+    - 720p 120Hz
   - USB3.0 interface
     - Cypress FX3 CYUSB3014
     - FTDI FT602Q
   - SERDES interface
     - TI FPD LINK3
+      - DVP : DS90UB913A/DS90UB914A
+      - MIPI CSI-2 : DS90UB953/DS90UB954/DS90UB960
 - CON80 pin map
   | #| DVP    | #| DVP    | | #| LVDS   | #| LVDS   | | #| FX3    | #| FX3    |
   |--| :----: |--| :----: |-|--| :----: |--| :----: |-|--| :----: |--| :----: |
