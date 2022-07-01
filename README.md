@@ -54,8 +54,8 @@ Spartan6 video interface board.<p>
   |33| A-HVAL |34| B-HVAL | |33| A-PWDN |34| B-PWDN | |33| HVAL   |34| CTLn   | 
   |35| A-VSYNC|36| B-VSYNC| |35| A-IO   |36| B-IO   | |35| VSYNC  |36| CTLn   | 
   |37| GND    |38| GND    | |37| GND    |38| GND    | |37| GND    |38| GND    | 
-  |39| A-SCL  |40| B-SCL  | |39| A-SCLN |40| B-SCLN | |39| I2C_SCL|40| CTLn   | 
-  |41| A-SDA  |42| B-SDA  | |41| A-SDAP |42| B-SDAP | |41| I2C_SDA|42| CTLn   | 
+  |39| A-SCL  |40| B-SCL  | |39| A-SCL  |40| B-SCL  | |39| I2C_SCL|40| CTLn   | 
+  |41| A-SDA  |42| B-SDA  | |41| A-SDA  |42| B-SDA  | |41| I2C_SDA|42| CTLn   | 
   |43| `3V3`  |44| `3V3`  | |43| `3V3`  |44| `3V3`  | |43| `3V3`  |44| `3V3`  | 
   |45| A-MCLK |46| B-MCLK | |45| A-MCLK |46| B-MCLK | |45| VCCIO  |46| VCCIO  | 
   |47| GND    |48| GND    | |47| GND    |48| GND    | |47| GND    |48| GND    | 
